@@ -1,18 +1,14 @@
 import { ImageBackground, View, Text ,StyleSheet} from "react-native"
 import React from 'react'
 
-export function slide1(){
+export function slide3(){
     return(
-        
-        <View style = {{ flex:1}}>
-            
-        <ImageBackground 
-            source ={require('../../assets/img1.png')} 
-            
+        <View style = {{ flex:1,backgroundColor:'blue'}}>
+        <ImageBackground
+            source ={require('../../assets/img3.png')} 
             style ={styles.ImageBackground}
             >
         </ImageBackground>
-        
         </View>
     )
 }
