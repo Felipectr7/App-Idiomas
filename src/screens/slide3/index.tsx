@@ -3,7 +3,7 @@ import React from 'react'
 
 export function slide3(){
     return(
-        <View style = {{ flex:1,backgroundColor:'blue'}}>
+        <View style = {{ flex:1}}>
         <ImageBackground
             source ={require('../../assets/img3.png')} 
             style ={styles.ImageBackground}
@@ -15,7 +15,7 @@ export function slide3(){
     const styles = StyleSheet.create({
         container: {
             flex: 1,
-            flexDirection: 'column'
+            flexDirection: 'column',
         },
         ImageBackground: {
             flex: 1,
