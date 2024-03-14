@@ -1,7 +1,7 @@
 import { ImageBackground, View, Text ,StyleSheet} from "react-native"
 import React from 'react'
 
-export function slide1(){
+export function Slide1(){
     return(
         
         <View style = {{ flex:1}}>
