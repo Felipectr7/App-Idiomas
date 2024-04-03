@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app1",
-    "slug": "app1",
+    "name": "MobileCafe",
+    "slug": "MobileCafe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,19 +21,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.felipe304.app1"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "16c4c9c7-800e-45ce-8c52-89ef943588c6"
-      }
-    }
+    ]
   }
 }
